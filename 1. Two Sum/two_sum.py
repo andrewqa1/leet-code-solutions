@@ -2,6 +2,7 @@ from typing import List
 
 # https://leetcode.com/problems/two-sum
 
+
 def twoSum(nums: List[int], target: int) -> List[int]:
     sorted_nums = sorted(enumerate(nums), key=lambda elem: elem[1])
     head = 0
